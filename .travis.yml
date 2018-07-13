@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: kbYtDg/zQ/YjXspzTf4QqgjMahnmc9WTfJOqXP+pWNRDw5lJ7kDFvCwJVV1jnFsxGJ8mUuVSwmWxMnVnBfTOjAhxpgqe4aUulzWnz0IAipPWjr1dMN1yrKWsMiWu4C2MyBalXh1Su7EKQYCLxywhL24bA3FcGEBneAv6EykC14tgZDyBEA4ZRuRE2YgihkS5a3BDNvWfq8DzeRwowf40RU/C62lPwWzqIE135oAWu3Il0AAlHw6TNLnEfDlLDKNbKDxndBrnzl+XdTFVG+l8x3bDsu9CqX0YmFrUcIub5Gam01+sXejmrJIsQbPu24ZhVgHMv1/H7O84XC+rYG3mQbQ0OhOzOBd6BDvbzJw82bIU2IpP7dCSmTQbLXDkim+YFmSCI8RtHied5kd7tPEakptM9FSQEQvp61yxpUd81jyHghxxpj8AFe0lXsu/6gHiHFdYIVD2ZQ/OIN1vzneOULTj94Inh/bB/MWGwpwLFtEWsNM6sHrA7lAhcjtjViG+nS8XMHLY8MJBzHRGNFsFBJR/chjhkjemCUSkZyAS5KdXPw5W68y1JMpTeBfD9yKm5D2ZjkFOEMugvim64ZEvPBVTync4FfGqK3YaJgNmkU8p9/5Amh+TwoYkT9iz0jjlrnIvnqCn/Uqdy+ydKAr03rCaiYMFb6nT/27oTVNK/U8=
+  app: mysterious-basin-24420
+  on:
+    repo: devLevi/node-shopping-list-integration-tests
